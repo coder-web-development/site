@@ -1,0 +1,108 @@
+.container_row_one { 
+    display: flex;  
+    justify-content: space-between;
+
+}
+.container_row_one_left img { 
+  width: 100%; height: auto; 
+}
+.container_row_one_right img { 
+    width: 100%; height: auto;  
+}
+.container_row_one_left { 
+    display: flex; 
+    
+}
+.container_row_one_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.container_row_one_right_img_text {
+   display: flex;
+   flex-direction: column;  
+  
+}
+.container_row_one_right_imgleft { 
+   
+    
+}
+.container_row_one_right_imgleft_name {
+    text-align: center;
+    font: bold 16px/18px 'Josefin Slab', serif; 
+    color: #3f3f3f; 
+    margin-top: 20px;
+ } 
+.container_row_one_right_imgleft_price {
+    text-align: center;
+    font: 16px/18px 'Josefin Slab', serif; 
+    color: #888888; 
+    margin-top: 10px;
+    
+}
+
+.container_row_one_right_imgright {
+
+}
+.container_row_one_right_imgright_name {
+    text-align: center;
+    font: bold 16px/18px 'Josefin Slab', serif; 
+    color: #3f3f3f; 
+    margin-top: 20px; 
+}
+.container_row_one_right_imgright_price {
+    text-align: center;
+    font: 16px/18px 'Josefin Slab', serif; 
+    color: #888888; 
+    margin-top: 10px;
+}
+
+/*-----------------------*/
+
+.container_row_two {
+   display: flex;
+   justify-content: space-between;
+}
+
+/*.container_row_two img { 
+   
+}*/
+
+.container_row_two_left { 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    border: 1px solid red; 
+}
+.container_row_two_left_box { 
+    display: block;
+     
+}
+.container_row_two_left_text_heading {
+     font: bold 52px/54px 'Josefin Slab', serif; 
+     text-align: center;
+     color: #000000;
+}
+.container_row_two_left_text_heading_content {
+    font: 18px/24px 'Josefin Slab', serif;
+    margin: 10px 90px 10px 140px;
+    color: #888888;
+   
+}
+.container_row_two_left_text_content_link {
+      font: 16px 'Josefin Slab', serif;
+       margin: 20px 0px 10px 140px; 
+}
+.container_row_two_left_text_content_link a {
+    text-decoration:none;
+    color: #000000;
+    letter-spacing: 3px;
+}
+.container_row_two_right { 
+    display: flex;
+   
+}
+.container_row_two_right img {
+    width: 100%; height: auto;
+}

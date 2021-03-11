@@ -1,0 +1,169 @@
+.slider_text {
+    color: #000000;  
+    position: absolute;   
+    /* блок с текстом на слайдере, абсолютное позиционирование */
+    top: 0; 
+    /* сверху ноль пикселов */
+   
+    left: 30%;
+    border: 1px solid red;
+}
+
+.header_top {
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_top_left {
+    width: 610px;
+    height: 126px;
+    background: url('../img/fon_header_top_left.jpg') left top no-repeat #ffffff; 
+    border: 1px solid #121212;
+}
+
+.header_top_center {
+    width: 500px;
+
+    background-color: #ffffff;
+    color: #000; 
+    border:1px solid green;
+
+}
+
+.header_top_right { 
+    width: 576px; 
+    height: 126px;
+    background: url('../img/fon_header_top_right.jpg') right top no-repeat #ffffff;
+    border: 1px solid #ff44ff;
+}
+.logo {
+
+}
+.logo a {
+    /*font-family: 'Montserrat', sans-serif ;
+    font-size: 50px;*/
+}
+.logo_top {
+
+}
+.logo_top a {
+    font: 62px/45px 'Montserrat', sans-serif ;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #3f2f35;    
+}
+.logo_bottom {
+
+}
+.logo_bottom a {
+    font: bold 10px 'Montserrat', sans-serif;
+    letter-spacing: 4px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #3f2f35; 
+}
+.box_menu_logo { 
+    height: 126px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.header_top_menu_left { 
+       
+}
+.header_top_menu_left ul { 
+    padding-inline-start:0px; 
+}
+.header_top_menu_left ul li { 
+    display: inline; 
+
+}
+.header_top_menu_left ul li a { 
+    text-decoration: none;
+    font : 14px 'Josefin Slab', serif;
+    margin-left: 20px;
+    color: #0e0d0e;
+}
+/*font-family: 'Josefin Slab', serif;*/
+.header_top_menu_right { 
+
+}
+.header_top_menu_right ul { 
+     padding-inline-start:0px; 
+}
+.header_top_menu_right ul li { 
+    display: inline; 
+}
+.header_top_menu_right ul li a { 
+    text-decoration: none;
+    font : 14px 'Josefin Slab', serif;
+    margin-right: 30px;
+    color: #0e0d0e;
+
+}
+
+.header_box {
+    width: 500px; 
+    color: #000000;  
+    border: 1px solid red;
+    position: relative;
+    left: -50%;
+   
+}
+
+.header_bottom {
+    width: 100%;
+    height: 814px;
+    display: flex;
+    justify-content: space-between;
+}
+.header_bottom_left {
+    width: 550px;
+    height: 814px;
+    background: url('../img/fon_header_bottom_left.jpg') left top no-repeat #ffffff; 
+    border: 1px solid #121212;
+}
+.header_bottom_center {
+    width: 500px;
+    height: auto;
+    background-color: #ffffff;
+    color: #000; 
+    border:1px solid red;
+}
+.header_bottom_right {
+    width: 539px; 
+    height: 814px;
+    background: url('../img/fon_header_bottom_right.jpg') right top no-repeat #ffffff;
+    border: 1px solid #ff44ff;
+
+}
+.bottom_center_content {
+
+}
+.bottom_center_content_text {
+   font: bold 40px/56px 'Josefin Slab', serif;  
+   color: #3f2f35;
+}
+.bottom_center_content_years {
+  /*font-family: 'Josefin Slab', serif;  */
+  display: flex;
+  justify-content: center;
+  font : 36px 'Josefin Slab', serif;  ;
+  color: #3f2f35;
+}
+.bottom_center_content_button {
+    display: flex;
+    justify-content: center;
+}
+.bottom_center_content_button button {
+    margin-top: 16px;
+    border-radius: 0px;
+    width: 160px;
+    height: 60px;
+    background: #3f2f35; 
+    color: #ffffff;
+    font: 14px 'Josefin Slab', serif; 
+    letter-spacing: 2px; 
+}

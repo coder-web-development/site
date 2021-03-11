@@ -1,0 +1,36 @@
+.container {
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+	border: 1px solid #000000;
+}
+.slider_box {
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px solid #777777;
+}
+.block_on_slider {
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	border: 1px solid #ff0000;
+	position: relative;
+	top: -150px;
+}
+.next_block {
+	width: 350px;
+	height: 250px;
+	margin: 0 auto;
+	border: 1px solid #00ff00;
+	position: relative;
+	top: -150px;
+}
+.next_two_block {
+	width: 150px;
+	height: 120px;
+	margin: 0 auto;
+	position: relative;
+	top: -150px;
+	border: 1px solid #0000ff;
+}

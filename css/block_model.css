@@ -1,0 +1,25 @@
+.container { 
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	display: block;
+	border: 1px solid red;
+}
+.block_one { 
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	margin: 10px;
+}
+.block_two {
+	width: 300px;
+	height: 100px;
+	background-color: green;
+	margin: 10px;
+}
+.block_three {
+	width: 150px;
+	height: 100px;
+	background-color: green;
+	margin: 10px;
+}
